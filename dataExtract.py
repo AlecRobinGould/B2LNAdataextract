@@ -1,4 +1,4 @@
-import os
+import os, sys
 import pandas as pd
 
 def extract_excel_data(serial_number, output_file):
@@ -45,9 +45,11 @@ def extract_excel_data(serial_number, output_file):
     print(f"Folder '{serial_number}' not found in the specified directory.")
 
 if __name__ == "__main__":
-    # serial_number_arg = input("Enter the serial number: ")
-    # output_file_arg = input("Enter the output text file name: ")
-    serial_number_arg = "SLB026"
+
+    if len(sys.argv) != 2:
+        print("Usage: python dataExtract.py <Serial Number>")
+        sys.exit(1)
+    serial_number_arg = sys.argv[1]
     output_file_arg = serial_number_arg + ".txt"
 
     extract_excel_data(serial_number_arg, output_file_arg)
