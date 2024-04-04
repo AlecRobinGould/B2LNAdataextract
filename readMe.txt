@@ -22,3 +22,22 @@ Gate voltage 2
 Gate voltage 3
 Mean gain
 ```
+
+Example:
+
+`python dataExtract.py "SLB008"`
+
+returns:
+
+0.8
+0.93
+0.98
+6
+6
+7.5
+-0.184
+-0.166
+-0.116
+41.05975121951219
+
+in a text file named SLB008.txt in the same directory as it's excel file (Alphawave Services\EA Production - SARAO - SARAO\DocumentControl\Test data\317-022005\SLB008).
