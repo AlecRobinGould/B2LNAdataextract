@@ -25,7 +25,7 @@ Mean gain
 
 Example:
 
-`python dataExtract.py "SLB008"`
+`python dataExtract.py "SLB008"` or compiled version: dataExtract.exe "SLB008"
 
 returns:
 
