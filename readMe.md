@@ -8,7 +8,7 @@ This application takes in 1 argument in the form of a string. This string should
 
 The application shall return a .txt file with the LNA bias data in the following format:
 
-The text file will be named after the serial number argument.
+The text file will be named after the serial number argument. *If the text file exists, it WILL be overwritten.*
 
 ```
 Drain voltage 1
