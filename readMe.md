@@ -25,7 +25,7 @@ Mean gain
 
 Example:
 
-`python dataExtract.py "SLB008"` or compiled version: `dataExtract.exe "SLB008"`
+`python dataExtract.py "SLB008"` or compiled version: `LNADataExtract.exe "SLB008"`
 
 returns:
 ```
@@ -42,3 +42,10 @@ returns:
 ```
 
 in a text file named `SLB008.txt` in the same directory as it's excel file `Alphawave Services\EA Production - SARAO - SARAO\DocumentControl\Test data\317-022005\SLB008`.
+
+# Compilation
+
+run `python -m pip install pyinstaller` in cmd prompt or powershell etc.
+
+Run the .bat file. This will create 2 folders, one called build, the other dist.
+The release binary file is located in /dist - this is to be used from SPF SHIELD
