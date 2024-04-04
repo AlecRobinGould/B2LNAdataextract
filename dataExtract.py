@@ -24,7 +24,7 @@ def extractExcelData(serialNumber, outputFile):
                 serial_row = df.iloc[10, 8]  # Columns I to N (0-based index)
                 # print(serial_row)
                 if serial_row == serialNumber:
-                    performance_df = pd.read_excel(excelFilePath, sheet_name="Performance")
+                    performance_df = pd.read_excel(excelFilePath, sheetName="Performance")
                     dataToWrite = performance_df.iloc[2:11, 3].tolist()  # D4 to D17
                     dataToWrite.append(performance_df.iloc[15, 3])
                 else:
