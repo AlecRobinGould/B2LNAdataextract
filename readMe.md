@@ -27,6 +27,8 @@ Example:
 
 `python dataExtract.py "SLB008"` or compiled version: `LNADataExtract.exe "SLB008"`
 
+Download the latest release here: [LNADataExtract.exe](https://github.com/EMSS-Antennas/B2LNAdataextract/releases)
+
 returns:
 ```
 0.8     
