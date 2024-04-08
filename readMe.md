@@ -2,7 +2,7 @@
 
 This application serves the purpose of performing the data extraction part of the automation of the LNA bias programming on the SPF SHIELD software.
 
-## Format
+## Usage and Format
 
 This application takes in 1 argument in the form of a string. This string should be the full serial number of the LNA. Ex `SLB007`
 
